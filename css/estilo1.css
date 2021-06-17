@@ -1,0 +1,47 @@
+img{
+	width:  100%;
+	border-radius: 0px;
+	min-width: 100px;
+}
+table{
+	height:10pc;
+	width: 80%;
+	color:aliceblue;
+	margin-bottom:5px;
+	border: 0;
+	text-align: center;
+	font-family:monospace;
+	border:0px;
+	
+}
+
+#sub_titulo{
+	padding:0;
+	margin: 0;
+	text-transform:uppercase;
+	font-size: 15pt;
+}
+#td_3{
+	background: #0c0a0d;
+	padding: ;
+	background: linear-gradient(180deg,#0c0a0d,#272528);
+	width: 20%;
+	
+}
+#td_2{
+	
+	padding: ;
+	background: linear-gradient(180deg,#0c0a0d,#272528);
+	width: 50pt;
+    height: 50%;
+	margin-top: 50;
+	
+}
+
+video{
+	width: 100%;
+	height: auto;
+	margin: 2%;
+	padding: inherit;
+	min-width: 165px;
+}

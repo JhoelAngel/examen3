@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<title>Calcular su peso</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/menu.css">
+		<link rel="stylesheet" type="text/css" href="../css/footer.css">
+		<link rel="stylesheet" type="text/css" href="../css/gym_info.css">
+		<link rel="stylesheet" type="text/css" href="../css/cal-peso.css">
+	</head>
+	<body>
+		<header>
+			<div id="div_logo">
+				<h3 align="center" id="text_gym"><img id="img_logo" src="../index/multimedia/img/equipos/1/logo.jpg" align="center">GYM - 14</h3>
+			</div>
+			<div class="caja">	
+				<nav id="menu">
+				 
+					<ul align="center">
+						<li><a href="../index.html">     Inicio</a></li>
+						<li><a href="gym_info.html">GYM-Info</a></li>
+						<li><a href="#">Equipos</a>
+							<ul>
+								<li><a href="../index/equipo/cardio.html">Cardio</a></li>
+								<li><a href="../index/equipo/musculatura.html">Musculación</a></li>
+							</ul>
+						</li>
+					
+						<li><a href="">Galeria</a>
+							<ul>
+								<li><a href="../index/galeria/fotos.html">Fotos</a></li>
+								<li><a href="../index/galeria/videos.html">Videos</a></li>
+							</ul>
+						</li>
+						<li><a href="">Redes Sociales</a>
+							<ul>
+								<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+								<li><a href="https://www.youtube.com/"target="_blank">YouTube</a></li>
+								<li><a href="https://www.instagram.com/"target="_blank">Instagram</a></li>
+								<li><a href="https://www.tiktok.com/"target="_blank">TikTok</a></li>
+								<li><a href="https://www.whatsapp.com/"target="_blank">Whatsapp</a></li>
+							</ul>
+						</li>
+					</ul>
+			</nav>
+			
+			</div>
+		</header>
+		<img src="">
+		<div class="contenedor">
+           <form action="">
+               <p>Introdusca su estatura <br> en cm</p>
+               <input type="text" id="est">
+               <p>Introsuca su edad</p>
+               <input type="text" id="edad">
+               <input type="button" value="CALCULAR PESO EN KG" class="btn" onclick="CalcularPeso()">
+               <input type="text" id="resultado" readonly>
+
+           </form>
+      
+		</div>
+		<footer>
+		
+		    
+			<table id="pie">
+				<tr>
+					<td>
+						<p id="ptexto"><b>Materia:</b> <br>
+						INF-113<br>
+						AÑO: 2021
+						</p>
+					</td>
+					<td align="right" id="name">
+						____________________________ 	<br>
+						by:JHOEL ANGEL ADUVIRI CANDIA  <br>
+						-----------------------------
+					</td>
+				</tr>
+			</table>
+			
+			
+		</footer>
+		 <script>
+            function CalcularPeso()
+                {   var est=parseFloat(document.getElementById('est').value);
+                    var edad=parseFloat(document.getElementById('edad').value);
+                    var res=(est-100)+((edad/10)*0.9);
+                    document.getElementById('resultado').value=res; 
+                }
+        </script>
+	</body>
+</html>

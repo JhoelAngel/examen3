@@ -1,0 +1,19 @@
+
+/*texto*/
+#tex{
+	color:aliceblue;
+	
+}
+/*foooter*/
+footer{
+	height:auto;
+	background:#0c0a0d;
+	border-radius: 20px;
+	color:aliceblue;
+	margin-bottom:5px;
+	text-align: center;
+	font-family:monospace
+}
+p{
+	text-align: left
+}

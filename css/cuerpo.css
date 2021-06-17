@@ -1,0 +1,49 @@
+img{
+	width:  80%;
+	border-radius: 20px;
+}
+table{
+	height:auto;
+	width: 80%;
+	border-radius: 50px;
+	color:aliceblue;
+	margin-bottom:5px;
+	border: 0;
+	text-align: center;
+	font-family:monospace;
+	border:0px;
+}
+#titulo{
+	color: aliceblue;
+	margin-left: 10%;
+	margin-right: 20%;
+	font-size:20pt;
+	padding: 1%;
+	background:linear-gradient(to right ,#4a8e18, #272528);
+	border-radius: 20px;
+	
+}
+#sub_titulo{
+	padding:0;
+	margin: 0;
+	text-transform:uppercase;
+	font-size: 15pt;
+}
+#td_g{
+	background: #0c0a0d;
+	border-radius: 20px;
+	padding: 2%;
+	background: linear-gradient(180deg,#0c0a0d,#272528);
+	
+}
+#texto_cont{
+	color:aliceblue;
+	text-decoration: none;
+	text-align: justify;
+	font-family: serif;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 3%;
+	background: #224211;
+	border-radius: 20px;
+}

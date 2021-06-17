@@ -1,0 +1,78 @@
+*{list-style: none;}
+body{
+	margin:5px;
+	padding:0;
+	background-color:#272528;
+	
+}
+#text_gym{
+	font-family:sans-serif;
+}
+
+#div_logo{
+	height:auto;
+	background:linear-gradient(to right ,#0c0a0d,#0c0a0d,#8b8b8b,#0c0a0d,#0c0a0d);
+	border-radius: 20px;
+	color:aliceblue;
+	margin-bottom:0px;
+}
+
+#img_logo{
+	width:7%;
+	margin-bottom:0px;
+}
+#img_inicio{ 
+	width: 80%;
+	margin-top: 0px;
+}
+
+
+/*menu despegable*/
+ul{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	bottom: 60px;
+	box-sizing:border-box;
+	font-size:0;
+	
+}  
+nav a{
+      text-decoration:none;
+      color:whitesmoke;
+      font-size:18px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:20px;
+      padding:5px 10px;
+      background-color:#77b900;
+      border:1px solid #77b900;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+            
+nav li:hover{
+      background-color:#234211;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+	  text-decoration: none;
+	list-style: none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+ul, li{
+	list-style:none;
+	padding: 0;
+}
+/*FIN MENU*/
